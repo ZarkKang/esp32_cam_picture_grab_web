@@ -1,0 +1,8 @@
+services:
+  cam-server:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+    - ./:/app  # 挂载整个项目目录到容器内
+    restart: unless-stopped

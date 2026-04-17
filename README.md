@@ -1,1 +1,0 @@
-# esp32_cam_picture_grab_web
